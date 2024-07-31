@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophi - Indumentaria Femenina</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-logo {
+            width: 100px; 
+            height: auto; 
+        }
+
+        .navbar-custom {
+            background-color: #fff5f7;
+        }
+
+        .product-image {
+            width: 1080px;
+            height: 1080px;
+            object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+        }
+
+        .footer {
+            background-color: #f8f9fa; /* Color de fondo del pie de página */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="Principal.html">
+            <img src="logoB.png" alt="Logo Sophi" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Principal.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CategoriaUrban.html">Urban</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CategoriaVestido.html">Vestidos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Producto -->
+    <div class="container my-5">
+        <h2 class="text-center">Producto Destacado</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <img src="prod2.png" alt="Producto Destacado" class="product-image">
+                <h3 class="mt-4">Nombre del Producto</h3>
+                <p class="mt-2">Descripción breve del producto destacado. Aquí puedes añadir detalles interesantes sobre el producto.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <p>© 2024 Sophi. Todos los derechos reservados.</p>
+            <p>Síguenos en nuestras redes sociales</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
