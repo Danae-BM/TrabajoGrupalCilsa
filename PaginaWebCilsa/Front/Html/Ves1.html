@@ -7,15 +7,24 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .navbar-logo {
-    width: 100px; 
-    height: auto; 
-}
+            width: 100px; 
+            height: auto; 
+        }
 
-.navbar-custom {
-    background-color: #fff5f7;
-}
+        .navbar-custom {
+            background-color: #fff5f7;
+        }
+
+        .product-image {
+            width: 1080px;
+            height: 1080px;
+            object-fit: cover; 
+        }
+
+        .footer {
+            background-color: #fff5f7; 
+        }
     </style>
-    
 </head>
 <body>
     <!-- Barra de Navegación -->
@@ -44,9 +53,21 @@
         </div>
     </nav>
 
+    <!-- Sección de Producto -->
+    <div class="container my-5">
+        <h2 class="text-center">Producto Destacado</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <img src="prod4.png" alt="Producto Destacado" class="product-image">
+                <h3 class="mt-4">Nombre del Producto</h3>
+                <p class="mt-2">Descripción breve del producto destacado. Aquí puedes añadir detalles interesantes sobre el producto.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Pie de Página -->
-    <footer class="bg-light py-4" id="contacto">
-        <div class="container text-center">
+    <footer class="footer py-4 text-center">
+        <div class="container">
             <p>© 2024 Sophi. Todos los derechos reservados.</p>
             <p>Síguenos en nuestras redes sociales</p>
         </div>
