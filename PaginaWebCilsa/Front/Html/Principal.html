@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophi - Indumentaria Femenina</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="PrincStyle.css">
+    
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="Principal.html">
+            <img src="logoB.png" alt="Logo Sophi" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Principal.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CategoriaUrban.html">Urban</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CategoriaVestido.html">Vestidos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrusel de Ofertas -->
+    <div id="carouselOfertas" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="banner1.png" class="d-block w-100" alt="banner1">
+            </div>
+            <div class="carousel-item">
+                <img src="banner2.png" class="d-block w-100" alt="banner2">
+            </div>
+            <div class="carousel-item">
+                <img src="banner3.png" class="d-block w-100" alt="banner3">
+            </div>
+            <div class="carousel-item">
+                <img src="banner4.png" class="d-block w-100" alt="banner4">
+            </div>
+        </div>
+        <a class="carousel-control-prev"  href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    
+
+
+    <!-- Sección de Categorías -->
+    <div class="container my-5" id="categorias">
+        <h2 class="text-center">Categorías</h2>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <a href="CategoriaUrban.html" class="btn btn-secondary btn-lg btn-block">Urban</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="CategoriaVestido.html" class="btn btn-secondary btn-lg btn-block">Vestidos</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Productos Destacados -->
+    <div class="container my-5">
+        <h2 class="text-center">Productos Destacados</h2>
+        <div class="row">
+            <!--  1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto Urban 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Urban 1</h5>
+                        <p class="card-text">Descripción breve del producto Urban 1.</p>
+                        <a href="Urb2.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!--  2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto Urban 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Urban 2</h5>
+                        <p class="card-text">Descripción breve del producto Urban 2.</p>
+                        <a href="Urb1.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Producto Vestido 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Vestido 1</h5>
+                        <p class="card-text">Descripción breve del producto Vestido 1.</p>
+                        <a href="Ves3.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer class="bg-light py-4" id="contacto">
+        <div class="container text-center">
+            <p>© 2024 Sophi. Todos los derechos reservados.</p>
+            <p>Síguenos en nuestras redes sociales</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
